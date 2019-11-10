@@ -64,11 +64,31 @@ a{
     text-decoration: none;
 }
 
+img {
+    border-radius: 50%;
+  }
+.links{
+    font-size: 3rem;
+    padding: 20px;
+}
+
+.nav{ 
+    margin-top: 10vh;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
 .details {
     width: 80vw;
     height: 100%;
-    margin: 3vw 3vw 3vw 10vw;
+    margin: 10vw 3vw 3vw 10vw;
     display:flex;
+    justify-content: space-around;
     
     
 
