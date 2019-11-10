@@ -5,41 +5,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/fontawesome.css">
-    <link rel="stylesheet" href="css/materialize.css">
-    <link rel="stylesheet" href="css/materialize.min.css">
-    <link rel="stylesheet" media="screen" href="css/style.css">
-    <SCript src="js/jquery-3.4.1.min.js"></SCript>
-    <SCript src="js/materialize.js"></SCript>
-    <SCript src="js/materialize.min.js"></SCript>
+    
+   
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+   
+    
     <title>DS</title>
-    <meta name="description" content="particles.js is a lightweight JavaScript library for creating particles.">
-  <meta name="author" content="Vincent Garreau" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
   
 </head>
 <body>
 
-        <nav>
-                <div class="nav-wrapper  grey darken-3">
-                  <a href="#" class="brand-logo">DS</a>
-                  <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
-                  </ul>
-                </div>
-              </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col s12"></div>
-        </div>
+     
+
+
+              
+
+
+       
+      
+      <div id="particles-js" ></div>
+
+
+    <div class="abc">
+      
+      
+      <div class="content">
+          <h3>Dinindu Sandaruwan</h3>
+     
+          <h4>UNDERGRADUATE STUDENT AT UNIVERSITY OF KELANIYA </br>SOFTWARE DEVELOPER</h4>
+          <h5>Mobile: 071 87 97 796 <br> Email: dinindu.ayagama@gmail.com <br> Address: NO 127/2, near the school, Eraporuwa, Ayagama</h5>
+          
+          <h4> <a href="">ABOUT ME</a> | <a href="">SKILLS</a> | <a href="">ACADEMIC BACKGROUND</a>  | <a href="">PROJECTS</a></h4>
+          
+
+
+      </div>
+      
     </div>
 
 
-    <!-- particles.js container -->
-<div id="particles-js"></div>
+
+
+    <div class="details">
+        <!-- <img src="image/main/a.jpg" style="width:100%;" alt=""> -->
+      <div class="overlay">
+        
+          <h2>ABOUT ME</h2>
+          <h3>Enthusiastic about Factory automation system, Web development & App designing.  To put it simply, I love what I do.  I’m passionate and motivated to excel and that  what allows me to always go the extra mile in order to make sure  that my clients will be satis</h3>
+     
+          
+      </div>
+    </div>
+          
+    <div class="details">
+        <!-- <img src="image/main/a.jpg" style="width:100%;" alt=""> -->
+      <div class="overlay">
+        
+          <h2>SKILLS</h2>
+          <h3>Technical skills</h3>
+            <ul>
+              <li>HTML 5</li>
+              <li>CSS</li>
+              <li>BOOSTRAP</li>
+              <li>SQL</li>
+              <li>PHP</li>
+              <li>Python</li>
+              <li>js</li>
+              <li>JQuery</li>
+              <li>Node js</li>
+              <li>React</li>
+              <li>Kotlin</li>
+              <li>Arduino</li>
+            </ul>
+
+            <h3>Other skills</h3>
+              <ul>
+                <li>Good in ART drawings and paintings also good in colour matching</li>
+                <li>Ability to work under pressure to meet deadlines </li>
+                <li>Excellent leadership capabilities strong teamwork skills</li>
+              </ul>
+      </div>
+    </div>
+    
+    <div class="details">
+        <!-- <img src="image/main/a.jpg" style="width:100%;" alt=""> -->
+      <div class="overlay">
+        
+          <h2>ACADEMIC BACKGROUND</h2>
+         <table style="width: 100%;">
+           <tr><td> <h3>Reading for the B.Sc. in Software Engineering (Honors) <br> Degree (level 2)</h3></td><td>2019</td></tr>
+           <tr><td><h4>2nd Year Current GPA 3.17 out of 4.0</h4></td><td>&nbsp;</td></tr>
+           <tr><td> <h3>GCE Advanced Level </h3></td><td>2016</td></tr>
+           <tr><td><h4>Combined Mathematics B | Physics B | ICT B</h4></td><td>&nbsp;</td></tr>
+         
+          </table>
+     
+          
+      </div>
+    </div>
+
+    <div class="details">
+        <!-- <img src="image/main/a.jpg" style="width:100%;" alt=""> -->
+      <div class="overlay">
+        
+          <h2>PROJECTS</h2>
+          <dl>
+            <dt>JPA calculator</dt>
+              <dd>A simple web application which is calculate JPA. <br><br><strong>Technologies : HTML 5, CSS , Materialize CSS, java Script <br> link : <a href="gfg">gdg</a></strong></dd>
+          </dl>
+     
+          
+      </div>
+    </div>
+
 
 <!-- scripts -->
 <script src="js/particles.js"></script>
@@ -47,24 +125,6 @@
 
 <!-- stats.js -->
 
-<script>
-  var count_particles, stats, update;
-  stats = new Stats;
-  stats.setMode(0);
-  stats.domElement.style.position = 'absolute';
-  stats.domElement.style.left = '0px';
-  stats.domElement.style.top = '0px';
-  document.body.appendChild(stats.domElement);
-  count_particles = document.querySelector('.js-count-particles');
-  update = function() {
-    stats.begin();
-    stats.end();
-    if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) {
-      count_particles.innerText = window.pJSDom[0].pJS.particles.array.length;
-    }
-    requestAnimationFrame(update);
-  };
-  requestAnimationFrame(update);
-</script>
+
 </body>
 </html>
